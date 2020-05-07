@@ -1,0 +1,311 @@
+@font-face{
+    font-family: 'roboto';
+    src: url('Roboto_Slab/static/RobotoSlab-Bold.ttf')
+}
+.containermain{
+    overflow: hidden;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.blue{
+    color: #316DC3;
+}
+.green{
+    color: #427900;
+}
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #316DC3;
+    justify-content: space-between;
+    height: auto;
+    padding: 5px 0px;
+}
+.top-line{
+    width: 100%;
+    height: auto;
+}
+.social{
+    width: 15px;
+    height: 15px;
+    margin: 13px 10px;
+}
+.mid{
+    color: white;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+.top-btn{
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 13px;
+}
+.logo-nav{
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: left;
+    height: auto;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0px 5px 5px gray;
+
+}
+.logo{
+    width: 180px;
+    height: 50px;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+ul li a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 25px;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.home, ul li a:hover{
+    color: white;
+    background-color: #316DC3;
+    border-radius: 30px;
+    text-decoration: none;
+}
+ul li ul.dropdown{
+    margin-top: 3px;
+    background: #fff;
+    display: none;
+    position: absolute;
+    width: 195px;
+    z-index: 1;
+    left: 0;
+    font-size: 0.8em;
+}
+ul li:hover ul.dropdown{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+}
+ul li ul.dropdown li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+}
+.right{
+    float: right;
+}
+.slide{
+    height: 500px;
+}
+.marq{
+    width: 100%;
+    padding: 10px 10px;
+}
+.in-marq{
+    margin: 0 auto;
+    background-color: #316DC3;
+    width: 70%;
+    color: white;
+    height: 30px;
+}
+.date{
+    color: rgb(0, 255, 0);
+}
+.intro-div{
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(241, 241, 241);
+}
+.introdiv{
+    margin: 0 auto;
+    width: 70%;
+}
+.intro{
+    font-family: 'roboto';
+    /* font-weight: bold; */
+}
+.para{
+    text-align: left;
+}
+.detail{
+    background-color: rgb(42, 94, 250);
+    text-align: center;
+}
+.det-div{
+    width: 100%;
+    color: white;
+    height: auto;
+    text-align: center;
+}
+.det{
+    display: inline-block;
+    text-align: center;
+    margin: 60px 0px 60px 40px;
+    width: 20%;
+}
+.dicon{
+    height: 50px;
+    width: 50px;
+}
+.num{
+    font-family: 'Merriweather';
+}
+.doing-div{
+    padding: 30px 0px;
+}
+.box{
+    border: none;
+    box-shadow: 5px 5px 10px gainsboro;
+    margin: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 30px 0px;
+}
+.doing-img{
+    height: 60px;
+    width: 60px;
+}
+.missdiv{
+    width: 100%;
+    margin-top: 40px;
+    height: 50px;
+}
+.mis-div{
+    margin-left: 10%;
+    width: 50%;
+    margin-right: 8%;
+    float: left;
+}
+.upproj{
+    width: 25%;
+    float: left;
+}
+.col-row{
+    width: 100%;
+}
+.mission{
+    padding: 15px 0px;
+    border: 1px solid gainsboro;
+    width: 20%;
+    margin: 10px;
+    background-color: rgb(241, 241, 241);;
+}
+.miss-head{
+    float: left;
+}
+.miss-img{
+    margin: 0px 20px;
+}
+.line{
+    width: 10%;
+  border-width: 1px;
+  border: 1px solid  #427900;
+}
+.up{
+    margin-top: 2%;
+}
+.up-div{
+    width: auto;
+    height: 170px;
+    overflow: hidden;
+}
+.imagegallery{
+    padding-top: 100px;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+.imggal-div{
+    width: 100%;
+    margin: 0 auto;
+}
+.img-div{
+    text-align: center;
+    justify-content: space-around;
+}
+.images-div{
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.imgs{
+    height: 150px;
+    width: 220px;
+    margin: 100px 2px;
+    float: left;
+}
+.imgs:hover{
+    opacity: 0.5 ;
+    cursor: pointer;
+    width: 222PX;
+    height: 152px;
+}
+.foot{
+    width: 100%;
+    height: 400px;
+    color: gainsboro;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: rgb(82, 79, 79);
+}
+.foot-main{
+    padding: 10% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.foot-cont{
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 20px;
+    width: 33.33%;
+    float: left;
+}
+.contact{
+    width: 25px;
+    height: 25px;
+    margin: 2px 5px;
+    color: white;
+    border-radius: 50%;
+    background-color: #316DC3;
+}
+.last{
+    background-color: #316DC3;
+    padding: 10px 10%;
+    font-size: 0.7em;
+    color: white;
+    width: 100%;
+}
+.top-img{
+    
+    padding: 10px;
+    opacity: 0.3;
+    display: block;
+}
+.top{
+    background-color: gray;
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+}
+.top-img:hover{
+    opacity: 1;
+}
